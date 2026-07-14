@@ -1,28 +1,17 @@
-function StudentProfile() {
+function App() {
   return (
-    <div
-      style={{
-        border: "2px solid #333",
-        padding: "20px",
-        width: "250px",
-        borderRadius: "10px",
-        textAlign: "center",
-        margin: "20px auto",
-        backgroundColor: "#f4f4f4",
-      }}
-    >
-      <h2>Student Profile</h2>
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Welcome to React</h1>
+
+      <h2>My First React Project</h2>
+
       <p>
-        <strong>Name:</strong> Navreet Singh
+        Hello! My name is <b>Saransh Tyagi</b>.
       </p>
-      <p>
-        <strong>Course:</strong> Computer Science Engineering
-      </p>
-      <p>
-        <strong>Age:</strong> 20
-      </p>
+
+      <button>Click Me</button>
     </div>
   );
 }
 
-export default StudentProfile;
+export default App;
